@@ -9,9 +9,11 @@
 + `Get`策略：如果缓存没有，则调用rpc获取
 + 优化：根据使用场景优化rpc的调用
 
-## distributed_lock1
+## distributed_lock
 
-分布式锁1: 基于redis 官方文档`SETNX`内的方法实现
+分布式锁: 基于redis实现
+
++ lockV1.go: redis官方文档`SETNX`内的方法实现
 
 ## redis_cache
 

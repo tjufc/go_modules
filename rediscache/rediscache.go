@@ -1,6 +1,9 @@
 package rediscache
 
-// redis cache
+// rediscache.go - redis cache
+// disciplines:
+// 1. all prefix begin with "gm_"
+// 2. key and value are split by "_"
 
 import (
 	"errors"
