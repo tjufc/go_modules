@@ -1,7 +1,6 @@
 package distributed_lock
 
-// lockV1.go 分布式锁的一种实现
-// redis命令SETNX官方文档中介绍的方法实现
+// lockV1.go - a distributed lock based on https://redis.io/commands/set
 
 import (
 	"fmt"
